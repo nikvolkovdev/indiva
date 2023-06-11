@@ -1,0 +1,42 @@
+@import "./src/app/styles/reset";
+@import "./variables";
+@import "./themes/light";
+@import "./themes/dark";
+
+body {
+    color: var(--primary-color);
+}
+
+.app {
+    min-height: 100vh;
+    background: var(--bg-color);
+    font: var(--font-m);
+}
+
+.app_redesigned {
+    min-height: 100vh;
+    background: var(--bg-redesigned);
+    font: var(--font-m-redesigned);
+    color: var(--text-redesigned);
+}
+
+.content-page {
+    display: flex;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+*::-webkit-scrollbar {
+    width: 12px;               /* ширина scrollbar */
+    height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--card-bg);        /* цвет дорожки */
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--inverted-primary-color);    /* цвет плашки */
+    border-radius: 20px;       /* закругления плашки */
+    border: 2px solid var(--primary-color);  /* padding вокруг плашки */
+}

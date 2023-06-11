@@ -1,0 +1,85 @@
+.primary {
+    color: var(--primary-color);
+}
+
+.secondary {
+    color: var(--secondary-color);
+}
+
+.secondary_italic {
+    color: var(--secondary-color);
+    font-style: italic;
+}
+
+.inactive {
+    --inactive-color: rgba(52, 51, 51, 0.4);
+}
+
+.error {
+
+}
+
+.bold {
+    font-weight: 700;
+}
+
+
+
+.inverted {
+    .title {
+        color: var(--inverted-primary-color);
+    }
+
+    .description {
+        color: var(--inverted-secondary-color);
+    }
+}
+
+.error {
+    .title {
+        color: var(--red-light);
+    }
+
+    .description {
+        color: var(--red-dark);
+    }
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.xs {
+    font: var(--font-xs);
+}
+
+.s {
+    font: var(--font-s);
+}
+
+.m {
+    font: var(--font-m);
+}
+
+.l-mob {
+    font: var(--font-l);
+}
+
+.l {
+    font: var(--font-l);
+}
+
+.xl {
+    font: var(--font-xl);
+}
+.xxl {
+    font: var(--font-xxl);
+}

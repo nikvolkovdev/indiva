@@ -1,0 +1,27 @@
+.AppInputWrapper {
+    display: flex;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.placeholder {
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.input {
+    background: var(--bg-color);
+    color: var(--primary-color);
+}
+
+.readOnly {
+    opacity: 0.7;
+}
+
+.transparent {
+    border: 1px solid var(--inverted-bg-color);
+    background: none;
+    outline: none;
+}

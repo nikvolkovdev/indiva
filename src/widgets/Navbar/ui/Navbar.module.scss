@@ -1,0 +1,35 @@
+.Navbar {
+    width: 100%;
+    height: var(--navbar-height);
+    background: var(--navbar-bg);
+    display: flex;
+    align-items: center;
+    padding: 13.5px 50px;
+    margin-bottom: 20px;
+}
+
+.sign_up {
+    color: var(--btn-secondary-color);
+    &:hover {
+        color: var(--btn-secondary-color-hovered);
+    }
+}
+
+.sign_in {
+    color: var(--btn-black-color);
+    &:hover {
+        color: var(--btn-black-border-hovered);
+    }
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.container {
+    width: 1196px;
+}
+
+.logoButtons {
+    margin-right: 40px;
+}

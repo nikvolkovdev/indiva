@@ -1,0 +1,13 @@
+.Sidebar {
+    height: calc(100vh - var(--navbar-height));
+    min-width: var(--sidebar-width);
+    background: var(--bg-color);
+}
+
+.items {
+    margin-top: 40px;
+    margin-left: 42px;
+    display: flex;
+    flex-direction: column;
+}
+

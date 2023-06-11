@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "blabla@gmail.com",
+      "password": "123",
+      "firstName": "Ivan",
+      "lastName": "Ivanov",
+      "teacherProfileId": "1",
+      "studentProfileId": "1",
+      "isTeacher": true
+    },
+    {
+      "id": "2",
+      "email": "blabla2@gmail.com",
+      "password": "123",
+      "firstName": "Petr",
+      "lastName": "Petrov",
+      "teacherProfileId": "2",
+      "studentProfileId": "2",
+      "isTeacher": false
+    }
+  ],
+  "teacherProfiles": [
+    {
+      "id": "1",
+      "styles": ["hustle", "wcs"],
+      "danceExp": "10",
+      "teacherExp": "8",
+      "city": "Moscow",
+      "school": "YouDance",
+      "contacts": ["https://vk.com", "https://instagram.com"],
+      "prices": ["1 занятие - 2000 руб", "8 занятий - 14000 руб."],
+      "about": ["Lorem ipsum dolor sit amet, consectetur adi piscing elit. Donec nec lacus aliquet. place."],
+      "posts": ["1", "2", "3"],
+      "events": ["1", "2", "3"]
+    }
+  ],
+  "studentProfiles": [
+    {
+      "id": "1",
+      "subscribedTo": [],
+      "events": [],
+      "userId": "1"
+    },
+    {
+      "id": "1",
+      "subscribedTo": ["1"],
+      "events": ["1", "2"],
+      "userId": "2"
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "teacherId": "1",
+      "studentId": "2",
+      "date": "22.03.2023",
+      "time": "15:00"
+    },
+    {
+      "id": "2",
+      "teacherId": "1",
+      "studentId": "2",
+      "date": "22.03.2023",
+      "time": "15:00"
+    }
+  ],
+  "posts": [{
+    "id": "1",
+    "teacherId": "1"
+  }],
+  "comments": [{
+    "id": "1",
+    "postId": "1",
+    "studentId": "2"
+  }],
+  "notifications": [
+    {
+      "id": "1",
+      "studentId": "id"
+    }
+  ]
+}
